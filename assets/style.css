@@ -36,7 +36,7 @@ main {
   display: block;
   color: #ffffff;
   background-color: #110ee0;
-  padding: 2vh;
+  padding: 3vh;
   border-radius: 8px;
   border: none;
 }
@@ -98,7 +98,7 @@ main {
 }
 
 .highscore-list {
-  padding-inline-start: 20px;
+  padding-inline-start: 22px;
 }
 
 /* Media Queries */
