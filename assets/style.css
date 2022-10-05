@@ -1,11 +1,122 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #041c4d;
+  color: white;
+  margin: 0px;
+}
 
-  body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #051636;
-    color: white;
-    margin: 0px;
+/* Styles  */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #070707;
+  color: #ffffff;
+  padding: 3vh;
+}
+
+/* Visibly moving the "time" text */
+
+time {
+  min-width: 100px;
+}
+
+/* Main Styles */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button Styles */
+
+.button {
+  display: block;
+  color: #ffffff;
+  background-color: #110ee0;
+  padding: 2vh;
+  border-radius: 8px;
+  border: none;
+}
+
+.inline-buttons {
+  display: inline-flex;
+}
+
+/* Card Styles */
+
+.card {
+  max-width: 80%;
+  margin-top: 15vh;
+  border: solid;
+  border-width: 2px;
+  padding: 5vw;
+  border-radius: 30px;
+  border-color: #110ee0;
+  box-shadow: 8px 3px 4px #110ee0;
+}
+
+/* Start Styles */
+
+#start-screen {
+  display: inline;
+  text-align: center;
+}
+
+/* Question Styles */
+
+.option-button {
+  width: 100%;
+  text-align: left;
+  margin: 5px;
+}
+
+#result-div {
+  display: none;
+}
+
+/* Score Styles */
+
+.inline-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#initials {
+  width: 25%;
+  margin: 8px;
+  padding: 1vh;
+}
+
+/* Leaderboard Styles */
+
+#back-button {
+  margin-right: 8px;
+}
+
+.highscore-list {
+  padding-inline-start: 20px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 850px) {
+  .card {
+    max-width: 680px;
   }
-  
-  /* Styles  */
-  
-  
+}
+
+/* devices that can utilize hover */
+@media (hover) {
+  /* Stylings pertaining to hover pseudo-class*/
+  a:hover {
+    color: #cbe1e0;
+  }
+
+  button:hover {
+    background-color: rgba(8, 23, 233, 0.5);
+  }
+}
