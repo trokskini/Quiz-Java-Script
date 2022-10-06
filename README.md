@@ -18,4 +18,5 @@ Enlace:
 https://trokskini.github.io/Quiz-Java-Script/
 REPO:
 https://github.com/trokskini/Quiz-Java-Script
-###Gracias por leer!
+
+Gracias por leer!
