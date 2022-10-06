@@ -15,7 +15,7 @@
 - w3schhools how to - Java Script Countdown Timer
 ## Prueba el custionario en el enlace a mi página web
 Enlace:
-
+https://trokskini.github.io/Quiz-Java-Script/
 REPO:
-
+https://github.com/trokskini/Quiz-Java-Script
 ###Gracias por leer!
